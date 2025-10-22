@@ -30,7 +30,8 @@ metadata:
     - ollama-model-service
 spec:
   type: model-server
-  owner: user:exampleuser
+  owner: group:ml-eng
+  system: ai-models 
   lifecycle: production
   providesApis:
     - ollama-service-api
